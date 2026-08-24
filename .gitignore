@@ -1,0 +1,72 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Pytest / Coverage / Linting
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.noserc
+nosetests.xml
+coverage.xml
+*.cover
+*.pyo
+
+# Environments
+.env
+.env.local
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+aims_demo.db
+
+# Generated Parameter & Report Artifacts
+artifacts/fits/*.json
+artifacts/reports/*.html
+artifacts/reports/*.json
+artifacts/reports/*.pdf
+
+# Project Charter & Persona Specification
+CLAUDE.md
+AIMS_AGENT_CHARTER.md
+
+# IDE & OS Files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
